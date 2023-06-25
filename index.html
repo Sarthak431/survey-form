@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smartphone Survey Form</title>
+</head>
+<body>
+  <h1>Smartphone Survey Form</h1>
+
+  <form action="#" method="post">
+    <table>
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name" required></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td><label for="age">Age:</label></td>
+        <td><input type="number" id="age" name="age" required></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="female">Female</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="smartphone">Favorite Smartphone:</label></td>
+        <td>
+          <select id="smartphone" name="smartphone" required>
+            <option value="">-- Select One --</option>
+            <option value="iPhone">iPhone</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Google Pixel">Google Pixel</option>
+            <option value="OnePlus">OnePlus</option>
+            <option value="Other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="feedback">Feedback:</label></td>
+        <td><textarea id="feedback" name="feedback" rows="4" cols="30"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="submit" value="Submit"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
